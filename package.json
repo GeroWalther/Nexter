@@ -1,0 +1,19 @@
+{
+  "name": "nexter-gero",
+  "version": "1.0.0",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "dev": "live-server src/index.html --browser=firefox"
+  },
+  "author": "gero@nexter-gero.",
+  "license": "ISC",
+  "keywords": [],
+  "description": "Posh Real Estate Website",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "sass": "^1.52.3"
+  }
+}
